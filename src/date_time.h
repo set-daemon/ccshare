@@ -1,7 +1,7 @@
 /*
  * file name: date_time.h
  * purpose  :
- * author   : huang chunping
+ * author   : set_daemon@126.com
  * date     : 2014-09-24
  * history  :
  */

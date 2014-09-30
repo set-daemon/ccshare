@@ -1,7 +1,7 @@
 /*
  * file name: common_defs.h
  * purpose  : common definitions.
- * author   : huangchunping
+ * author   : set_daemon@126.com
  * date     : 2014-08-20
  */
 #ifndef __COMMON_DEFS_H__

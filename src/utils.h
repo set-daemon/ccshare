@@ -1,7 +1,7 @@
 /*
  * file name: utils.h
  * purpose  : 
- * author   : huangchunping
+ * author   : set_daemon@126.com
  * date     : 2014-08-20
  * history  :
  */
