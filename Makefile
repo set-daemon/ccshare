@@ -1,10 +1,10 @@
 CC=g++
 AR=ar
-INCLUDES=-I./src
+INCLUDES=-I./src -I./include/hiredis
 CFLAGS=${INCLUDES} -fpic
 LDFLAGS=
 LIBS=libccshare.so libccshare.a
-LIB_OBJS=utils.o
+LIB_OBJS=utils.o redis_cmd.o redis_comm.o
 
 libccshare.so:${LIB_OBJS}
 	${CC} -shared -fpic -o $@ $^
