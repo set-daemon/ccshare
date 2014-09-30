@@ -125,16 +125,13 @@ static DEF_PARSER_FUNC(keys_reply_parser)
 		return -1;
 	}
 
-	INFO(",hgets,,,,,!\n");
 	if (reply->type != REDIS_REPLY_ARRAY) {
 		return -1;
 	}
-	INFO(",,hgets,,,,,!\n");
 	// the return is k-v mode, so the array should be multiple to 2.
 	if (reply->elements % 2 != 0) {
 		return -1;
 	}
-	INFO(",,,hgets,,,,,!\n");
 	redisReply **elems = reply->element;
 	for (int i = 0; i < reply->elements; i++) {
 		if (elems[i]->type != REDIS_REPLY_STRING) {

@@ -1,7 +1,7 @@
 /*
  * file name: redis_comm.h
  * purpose  : 
- * author   : huang chunping
+ * author   : set_daemon@126.com
  * date     : 2014-09-25
  * history  :
  */

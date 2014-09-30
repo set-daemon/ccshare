@@ -1,7 +1,7 @@
 /*
  * file name: redis_cmd.h
  * purpose  :
- * author   : huang chunping
+ * author   : set_daemon@126.com
  * date     : 2014-09-26
  * history  :
  *            1. it supports hmget/hgetall now.
